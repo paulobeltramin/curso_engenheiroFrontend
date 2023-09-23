@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* style header */
+.container {
+    display: flex;
+    width: 100%;
+
+}
+
+.container_header {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+.container_header h1 {
+    color: white;
+    padding-left: 20px;
+}
+
+.container_header ul {
+    display: flex;
+
+
+}
+
+.container_header ul li {
+    color: white;
+    list-style: none;
+    padding-right: 20px;
+
+}
+
+.container_header ul a {
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+
+/* sessão esportes*/
+
+#esporte {
+    background-color: rgba(0, 255, 0, 0.3);
+    border-radius: 15px;
+}
+
+.article-1 {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+section h2 {
+    font-size: 50px;
+    margin: 30px 0 30px 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.article-1 img {
+    height: 180px;
+    width: 250px;
+    display: flex;
+}
+
+.article-1 h3 {
+    width: 250px;
+    margin: 15px auto;
+}
+
+.article-1 p {
+    width: 250px;
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+
+.article-1 a {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.article-1 a:hover {
+    text-decoration: underline;
+    background-color: limegreen;
+}
+
+
+/* sessão economia  */
+
+#economia {
+    background-color: rgba(0, 100, 200, 0.3);
+    border-radius: 15px;
+}
+
+.article-2 {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.article-2 img {
+    height: 180px;
+    width: 250px;
+    display: flex;
+}
+
+.article-2 h3 {
+    width: 250px;
+    margin: 15px auto;
+}
+
+.article-2 p {
+    width: 250px;
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+.article-2 a {
+    background-color: rgb(81, 81, 224);
+
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: tan;
+}
+
+.article-2 a:hover {
+    text-decoration: underline;
+    background-color: rgb(77, 198, 238);
+    color: black;
+}
+
+
+/* style sessão tecnologia */
+
+#tecnologia {
+    background-color: rgba(137, 43, 226, 0.705);
+    border-radius: 15px;
+    padding: 8px auto;
+
+}
+
+.article-3 {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.article-3 img {
+    height: 180px;
+    width: 250px;
+    display: flex;
+
+
+}
+
+.article-3 h3 {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.article-3 p {
+    width: 250px;
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+.article-3 a {
+    background-color: violet;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.article-3 a:hover {
+    background-color: rgba(0, 0, 255, 0.644);
+    color: rgb(255, 253, 253);
+    text-decoration: underline;
+}
+
+
+
+/* sessão de entretenimento */
+
+
+#entretenimento {
+    background-color: rgba(251, 253, 255, 0.705);
+    border-radius: 15px;
+    padding: 8px auto;
+
+}
+
+.article-4 {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.article-4 img {
+    height: 180px;
+    width: 250px;
+    display: flex;
+
+
+}
+
+.article-4 h3 {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.article-4 p {
+    width: 250px;
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+.article-4 a {
+    background-color: rgb(3, 7, 46);
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.5s;
+}
+
+.article-4 a:hover {
+    background-color: rgba(0, 0, 255, 0.644);
+    color: rgb(255, 253, 253);
+    text-decoration: underline;
+}
