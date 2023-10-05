@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form_task {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form_task input {
+    padding: 7px;
+    font-weight: bold;
+}
+
+.form_task button {
+    padding: 7px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.section_list ul {
+
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.decoration {
+    text-decoration: line-through;
+}
