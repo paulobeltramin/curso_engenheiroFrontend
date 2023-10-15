@@ -1,11 +1,11 @@
 {
-  "name": "exercicio_sass",
+  "name": "7-exercicio_scss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"sass source/main.scss build/main.css --watch"
+    "dev":"sass src/main.scss build/main.css --watch"
   },
   "keywords": [],
   "author": "",
