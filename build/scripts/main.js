@@ -1,0 +1,1 @@
+function startTime(){var e=new Date,n=e.getHours(),c=e.getMinutes(),e=e.getSeconds(),c=checkTime(c),e=checkTime(e);document.getElementById("txt").innerHTML=n+":"+c+":"+e,t=setTimeout("startTime()",500)}function checkTime(e){return e=e<10?"0"+e:e}
