@@ -1,0 +1,119 @@
+@import '../mapas/maps.less';
+@import '../variaveis/variables.less';
+
+
+body {
+    background-color: #colors[bgColor];
+    @reset()
+}
+
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+// cabeçalho
+header {
+    background-color: #182C61;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+
+        &-menu {
+            display: flex;
+
+            li {
+                font-weight: bold;
+                margin-left: 24px;
+            }
+
+
+            a {
+                color: #colors[textColor];
+                text-decoration: none;
+            }
+        }
+
+
+    }
+};
+
+// produtos
+section {
+    padding: 56px 0;
+
+    .products {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 32.66%);
+        column-gap: 1%;
+        row-gap: 4%;
+        width: 100%;
+
+
+        img {
+            width: 100%;
+            border-radius: 16px;
+        }
+
+        a {
+            display: block;
+            background-color: #44bd32;
+            color: #colors[textColor];
+            text-align: center;
+            padding: 8px 0;
+            border-radius: 8px;
+            margin-top: 8px;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #4cd137;
+            }
+
+        }
+    }
+
+};
+
+
+// responsivos
+@media @breakPointMobile {
+    .products {
+        display: block;
+        max-width: 90%;
+        padding-right: 1.5em;
+
+        &-item {
+            margin-bottom: 2em;
+        }
+    }
+
+}
+
+@media @breakPointTablet {
+    .container {
+        max-width: 80%;
+        padding-right: 2em;
+
+        .products {
+            grid-template-columns: repeat(2, 48.5%);
+            column-gap: 3%;
+
+        }
+
+    }
+
+};
