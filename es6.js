@@ -23,14 +23,11 @@ const mediaAlunos = [
 
 ];
 
-const mediaFinal = () => {
-    const mediaAluno = mediaAlunos;
 
-    for (let i = 0; i < mediaAluno.length; i++) {
-        if (mediaAluno[i].nota >= 6) {
-            return mediaAluno[i]
-        }
+mediaAlunos.map((item) => {
+    if (item.nota >= 6) {
+        return item
     }
+})
 
-}
-mediaFinal()
+
